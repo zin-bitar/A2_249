@@ -15,13 +15,13 @@ public class Employee {
         this.grossSalary =0;
     }
 
-    public Employee(long employeeNumber, String firstName, String lastName, double hoursWorked, double hourlyWage, double grossSalary){
+    public Employee(long employeeNumber, String firstName, String lastName, double hoursWorked, double hourlyWage){
         this.employeeNumber = employeeNumber;
         this.firstName = firstName;
         this.lastName = lastName;
         this.hoursWorked = hoursWorked;
         this.hourlyWage = hourlyWage;
-        this.grossSalary = grossSalary;
+        this.grossSalary = hoursWorked * hourlyWage * 52;
     }
 
 
