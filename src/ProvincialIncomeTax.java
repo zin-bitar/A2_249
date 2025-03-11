@@ -10,6 +10,7 @@ public class ProvincialIncomeTax extends Deductions{
 
 
 
+    
     @Override
     public double calculateTax(Employee employee) {
         double grossSalary = employee.getGrossSalary();
