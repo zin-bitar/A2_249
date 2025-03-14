@@ -74,12 +74,12 @@ public class Employee {
     }
 
     public String toString(){
-        return "Employee number" + this.employeeNumber +"\n" +
-                "First name: " + this.firstName +"\n" +
-                "Last name: " + this.lastName +"\n" +
-                "Hours worked: " + this.hoursWorked+"\n" +
-                "Hourly wage: " + this.hourlyWage +"\n" +
-                "Gross salary: " + this.grossSalary;
+        return "Employee number: " + this.employeeNumber +
+                " First name: " + this.firstName+
+                " Last name: " + this.lastName+
+                " Hours worked: " + this.hoursWorked+
+                " Hourly wage: " + this.hourlyWage+
+                " Gross salary: " + this.grossSalary;
     }
 
     @Override

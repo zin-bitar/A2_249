@@ -1,0 +1,12 @@
+31718 Phillip Lennox 40 25.50
+11528 Nancy Trooper 35 20.00
+22310 Claudia O'Hare 30.5 9.80
+92010 David Brock 29 22.50
+11005 Mark Spencer 12ab 18.00
+52726 Mitchell Hackett 23.7 16.05
+#9331 Mario Todaro 35.0 17.00
+14311 Emile Borgeys 8.5 6.45
+43018 James Walker 20.0 8.00
+9201( David Brock 29.0 22.50
+26734 Edith Roosevelt 20.0 25.50
+80000 Daniel Davis 40.0 30.00
