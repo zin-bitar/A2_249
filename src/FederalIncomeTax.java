@@ -1,4 +1,9 @@
+//--------------------------------------------------------
+//Assignment 2
+//Written by: Zin Bitar 40305895 && Lasmar Khalifa 40321544
+//---------------------------------------------------------
 public class FederalIncomeTax extends Deductions{
+    //initialize variables for tax brackets and their rates
     private static double taxRateBracketOne = 0.15;
     private static double taxRateBracketTwo = 0.205;
     private static double taxRateBracketThree = 0.26;
@@ -11,6 +16,7 @@ public class FederalIncomeTax extends Deductions{
     private double bracket5 = 253414;
 
 
+    //calculate federal taxes using the given tax brackets in each salary range
     @Override
     public double calculateTax(Employee employee) {
         double grossSalary = employee.getGrossSalary();

@@ -1,4 +1,9 @@
+//--------------------------------------------------------
+//Assignment 2
+//Written by: Zin Bitar 40305895 && Lasmar Khalifa 40321544
+//---------------------------------------------------------
 public class ProvincialIncomeTax extends Deductions{
+    //initialize variables for tax brackets and their rates
     private static double taxRateBracketOne = 0.14;
     private static double taxRateBracketTwo = 0.19;
     private static double taxRateBracketThree = 0.24;
@@ -10,7 +15,7 @@ public class ProvincialIncomeTax extends Deductions{
 
 
 
-    
+    //calculate provincial taxes using the given tax brackets in each salary range
     @Override
     public double calculateTax(Employee employee) {
         double grossSalary = employee.getGrossSalary();
